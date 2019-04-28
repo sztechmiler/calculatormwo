@@ -53,12 +53,7 @@ public class CalcTest
         Assert.assertEquals(2, calc.divide(4,2),0.01);
         Assert.assertEquals(1, calc.divide(10,10), 0.01);
     }
-    @Test(expected = java.lang.ArithmeticException.class)
-    public void testDivideByZero()
-    {
-        calc.divide(1,0);
-    }
-
+   
 
 
 }
